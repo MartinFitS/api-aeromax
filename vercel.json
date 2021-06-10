@@ -2,10 +2,10 @@
     "name": "api-aeromax",
     "version": 2,
     "builds": [
-      { "src": "./dist/index.js", "use": "@vercel/node" }
+      { "src": "./src/index.js", "use": "@vercel/node" }
     ],
     "routes": [
-      { "src": "/.*", "dest": "./dist/index.js"}
+      { "src": "/.*", "dest": "./src/index.js"}
       
     ]
   }
